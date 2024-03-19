@@ -39,11 +39,13 @@ export default function Home() {
       <div className="bg-gradient-to-r from-Orange to-Secondary h-1 "></div>
       {/* PROYECTS SECTION START */}
       <div className="Mobile:bg-SecondaryBlue font-sans flex flex-col items-center">
-        <div className="section-blue text-white">
-          <section id="projects" className="p-6">
-            <h2 className="text-4xl">Projects I am proud of</h2>
+        <div className="section-blue text-white w-full">
+          <section id="projects" className="p-6 w-full">
+            <h2 className="text-3xl md:text-4xl pl-6">
+              Projects I am proud of
+            </h2>
 
-            <article className="flex flex-col mt-10 mb-10 items-center">
+            <article className="flex flex-col mt-10 mb-10 items-center ">
               <div>
                 <h4 className="text-lg">Latest Project</h4>
                 <h3 className="text-aqua text-2xl">Conexión Huellitas</h3>
@@ -73,7 +75,7 @@ export default function Home() {
               />
             </article>
 
-            <article className="flex flex-col mt-10 mb-10 items-center">
+            <article className="flex flex-col mt-10 mb-10 items-center ">
               <div className="flex flex-col">
                 <h3 className="text-aqua text-2xl">Game Zone</h3>
                 <p className="bg-Primary text-altWhite p-4 rounded-2xl">
@@ -82,7 +84,7 @@ export default function Home() {
                   perfect game for you, with ratings details and much more. This
                   project was made as a individual project for evaluation in the
                   Henry bootcamp build in 2 weeks with with the PERN stack
-                  skills learned
+                  skills learned.
                 </p>
                 <h4 className="mt-4">Technologies used include:</h4>
                 <ul className="ml-8 mb-4 flex justify-evenly w-5/6">
@@ -103,7 +105,7 @@ export default function Home() {
               />
             </article>
 
-            <article className="flex flex-col mt-10 mb-10 items-center">
+            <article className="flex flex-col mt-10 mb-10 items-center ">
               <div>
                 <h3 className="text-aqua text-2xl">Flappy</h3>
                 <p className="bg-Primary text-altWhite p-4 rounded-2xl">
@@ -134,7 +136,7 @@ export default function Home() {
               />
             </article>
 
-            <article className="flex flex-col mt-10 mb-10 items-center">
+            <article className="flex flex-col mt-10 mb-10 items-center ">
               <div>
                 <h3 className="text-aqua text-2xl">Jobinder</h3>
                 <p className="bg-Primary text-altWhite p-4 rounded-2xl">
@@ -165,11 +167,18 @@ export default function Home() {
               />
             </article>
 
-            <article className="flex flex-col mt-10 mb-10 items-center">
+            <article className="flex flex-col mt-10 mb-10 items-center ">
               <div>
                 <h3 className="text-aqua text-2xl">Kidszone</h3>
                 <p className="bg-Primary text-altWhite p-4 rounded-2xl">
-                Planning family outings can be a chore. Enter KidsZone, your new MVP for stress-free adventures!  This app curates kid-friendly activities based on your childs age and interests, ensuring both fun and sanity. Real parent reviews let you know what to expect, and clear pricing upfront avoids budget surprises. KidsZone empowers you to rediscover the joy of family adventures, visit our site and spend less time planning, more time making memories! 
+                  Planning family outings can be a chore. Enter KidsZone, your
+                  new MVP for stress-free adventures! This app curates
+                  kid-friendly activities based on your childs age and
+                  interests, ensuring both fun and sanity. Real parent reviews
+                  let you know what to expect, and clear pricing upfront avoids
+                  budget surprises. KidsZone empowers you to rediscover the joy
+                  of family adventures, visit our site and spend less time
+                  planning, more time making memories!
                 </p>
                 <h4 className="mt-4">Technologies used include:</h4>
                 <ul className="ml-8 mb-4 flex justify-evenly w-5/6">
@@ -199,7 +208,7 @@ export default function Home() {
         id="Contact"
         className="bg-Orangeb h-60 flex flex-col items-center justify-center"
       >
-        <div className="h-5/6 flex flex-col justify-around items-center w-5/6 leading-relaxed">
+        <div className="h-5/6 flex flex-col justify-around items-center w-5/6 leading-base ">
           <h2 className="text-altWhite text-2xl">Contact Me</h2>
           <p className="text-altWhite text-justify">
             I am always interested in hearing about new developing
