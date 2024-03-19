@@ -45,7 +45,7 @@ export default function Home() {
               Projects I am proud of
             </h2>
 
-            <article className="flex flex-col mt-10 mb-10 items-center ">
+            <article className="flex flex-col mt-10 mb-10 items-center">
               <div>
                 <h4 className="text-lg">Latest Project</h4>
                 <h3 className="text-aqua text-2xl">Conexión Huellitas</h3>
@@ -75,7 +75,7 @@ export default function Home() {
               />
             </article>
 
-            <article className="flex flex-col mt-10 mb-10 items-center ">
+            <article className="flex flex-col mt-10 mb-10 items-center">
               <div className="flex flex-col">
                 <h3 className="text-aqua text-2xl">Game Zone</h3>
                 <p className="bg-Primary text-altWhite p-4 rounded-2xl">
@@ -105,11 +105,11 @@ export default function Home() {
               />
             </article>
 
-            <article className="flex flex-col mt-10 mb-10 items-center ">
-              <div>
+            <article className="flex flex-col mt-10 mb-10 items-center pl-6">
+              <div className="flex flex-col">
                 <h3 className="text-aqua text-2xl">Flappy</h3>
                 <p className="bg-Primary text-altWhite p-4 rounded-2xl">
-                  Flappy is a virtual assistant for logistics management, with
+                Flappy is a virtual assistant for logistics management, with
                   FLAPPY, carriers can digitize their operations. Reduce
                   administrative burdens, and optimize 10x their workflows. By
                   doing so, they can improve their administrative management,
@@ -119,7 +119,7 @@ export default function Home() {
                 </p>
                 <h4 className="mt-4">Technologies used include:</h4>
                 <ul className="ml-8 mb-4 flex justify-evenly w-5/6">
-                  <li className="mr-2">React.js</li>
+                <li className="mr-2">React.js</li>
                   <li className="mr-2">Tailwind</li>
                   <li className="mr-2">Amazon AuroraMySQL</li>
                   <li className="mr-2">Atomic Design</li>
@@ -131,12 +131,12 @@ export default function Home() {
                 src="/flappy.png"
                 width={500}
                 height={200}
-                alt="Flappy company logo"
+                alt="Flappy logo"
                 className="border-Orange border-2"
               />
             </article>
 
-            <article className="flex flex-col mt-10 mb-10 items-center ">
+            <article className="flex flex-col mt-10 mb-10 items-center pl-6">
               <div>
                 <h3 className="text-aqua text-2xl">Jobinder</h3>
                 <p className="bg-Primary text-altWhite p-4 rounded-2xl">
@@ -167,7 +167,7 @@ export default function Home() {
               />
             </article>
 
-            <article className="flex flex-col mt-10 mb-10 items-center ">
+            <article className="flex flex-col mt-10 mb-10 items-center">
               <div>
                 <h3 className="text-aqua text-2xl">Kidszone</h3>
                 <p className="bg-Primary text-altWhite p-4 rounded-2xl">
