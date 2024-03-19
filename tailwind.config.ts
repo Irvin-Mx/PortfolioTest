@@ -26,6 +26,7 @@ const config: Config = {
       height: {
         '20vh': '20vh',
         '80p': '80vh',
+        '90p': '90vh',
         '90perc': '90%',
         '700': '700px',
       },
