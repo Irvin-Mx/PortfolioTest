@@ -1,7 +1,5 @@
 import { Roboto } from "next/font/google";
 
-import Image from "next/image";
-
 const roboto = Roboto({ weight: "300", subsets: ["latin"] });
 
 export default function Home() {
@@ -66,13 +64,6 @@ export default function Home() {
                   <li className="mr-2">Git</li>
                 </ul>
               </div>
-              <Image
-                src="/pets.png"
-                width={500}
-                height={200}
-                alt="Pets Mvp"
-                className="border-Orange border-2"
-              />
             </article>
 
             <article className="flex flex-col mt-10 mb-10 items-center">
@@ -96,13 +87,6 @@ export default function Home() {
                   <li className="mr-2">Git</li>
                 </ul>
               </div>
-              <Image
-                src="/videogames.png"
-                width={500}
-                height={200}
-                alt="Videogame landing page"
-                className="border-Orange border-2"
-              />
             </article>
 
             <article className="flex flex-col mt-10 mb-10 items-center pl-6">
@@ -127,13 +111,6 @@ export default function Home() {
                   <li className="mr-2">Git</li>
                 </ul>
               </div>
-              <Image
-                src="/flappy.png"
-                width={500}
-                height={200}
-                alt="Flappy logo"
-                className="border-Orange border-2"
-              />
             </article>
 
             <article className="flex flex-col mt-10 mb-10 items-center pl-6">
@@ -158,13 +135,6 @@ export default function Home() {
                   <li className="mr-2">Git</li>
                 </ul>
               </div>
-              <Image
-                src="/jobinder.png"
-                width={500}
-                height={200}
-                alt="Screenshot of jobinder mvp"
-                className="border-Orange border-2"
-              />
             </article>
 
             <article className="flex flex-col mt-10 mb-10 items-center">
@@ -190,13 +160,6 @@ export default function Home() {
                   <li className="mr-2">Git</li>
                 </ul>
               </div>
-              <Image
-                src="/kidszone.png"
-                width={500}
-                height={200}
-                alt="Screenshot of kidszone mvp"
-                className="border-Orange border-2"
-              />
             </article>
           </section>
         </div>
